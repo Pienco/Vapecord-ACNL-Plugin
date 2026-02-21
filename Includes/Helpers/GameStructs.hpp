@@ -1034,7 +1034,7 @@ namespace CTRPluginFramework {
         0x0001, 0x0001, 0x0005
     };
 
-    enum Initiative : u8 {
+    enum class Initiative : u8 {
         None = 0,
         FashionForward,
         CouponKickoff,
@@ -1135,8 +1135,8 @@ namespace CTRPluginFramework {
         SlingshotSniper,
         AxeCollector,
         FertileLand,
-        FashionForward,
-        SmallTalk
+        FashionForward2,
+        SmallTalk2
     };
 
     /*
